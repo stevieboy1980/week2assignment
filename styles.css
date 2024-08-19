@@ -1,0 +1,148 @@
+
+body{background-color: aqua;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+/* I started by changing the background color in the body of the index page. I also changed the font of all the text within the body tag.
+/* ---Elements---*/
+
+h1
+{color: red;text-decoration: underline;text-decoration-color: black;}
+
+h2
+{
+    font-style: italic;
+    background-color: fuchsia;
+    width: max-content;
+    padding: 5px;
+}
+label
+{font-family: 'Times New Roman', Times, serif;font-weight: bold;}
+
+input {background-color: beige;
+       font-family: 'Times New Roman', Times, serif; 
+}
+
+/* I added styles to each element such as changing the color of the text in h1 and changing the style and background color of the h2 element.
+
+
+/* --- Nav Bar --- */
+
+.navbar {
+    font-family: 'Courier New', Courier, monospace; background-color: darkgoldenrod;
+    padding: 5px;
+    width: max-content;
+    
+    }
+.navbar ul
+{   display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    justify-content:center;
+}
+
+.navbar a {
+  color:blue;
+  text-decoration: none;
+  margin-right: 100px;
+  font-size: 30px;
+  box-shadow: 1px 1px red
+}
+.navbar a:hover{
+    color:white;
+
+}
+
+.navbar a:active {
+    background-color: indigo;
+    border-radius: 100%;
+}
+
+/* I changed the navigation bar for each page to look the same.  I changed the background color of navbar then used width to make all content fit. I also changed it for when you hover over it, it will change color.  When you click on it, the border will also change.
+
+/* ---Image List Index ---*/
+
+#dogs{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+
+
+#dogs li{
+    color: navy;
+    list-style-type: none;
+    font-style: italic;
+    text-decoration: underline;text-decoration-color: black;
+    
+}
+
+/* ---Table ---*/
+
+.tablebody{
+    background-color:chartreuse;
+}
+
+table{
+    background-color: blue;
+    border: 3px solid black;
+}
+
+
+tr img{
+    border: 3px solid black;
+}
+
+thead{
+    background-color: aqua;
+    font-size: 28px;
+}
+
+th,tr{
+    text-indent: 20px;
+}
+tr{
+    font-weight: bold;
+}
+
+
+/* ---Form---*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    background-color: orange;
+    padding: 10px;
+}
+
+form label{
+    color: blue;
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+}
+form input {
+    margin-bottom: 20px;
+
+}
+
+
+
+form button{
+    padding: 10px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: aqua;
+}
+.form{
+    background-image: url(images/dog\ and\ phone.jpg);
+}
+
+form button:hover{
+    color: gold;
+    background-color: black;
+}
+
+
